@@ -63,6 +63,11 @@ body {
 }
 
 .cursor-custom {
-  cursor: url('/public/65b1a12e3211534c63d294b5_guest_green_cursor_yD3_icon.ico'), auto;
+  background: #000;
+  height: 300px;
+  width: 300px;
+  position: fixed;
+  top:0;
+  left:0;
 }
 

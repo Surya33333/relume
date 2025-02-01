@@ -1,10 +1,11 @@
 'use client'
 import { motion } from 'framer-motion';
+import { useState,useEffect } from 'react';
 
 export default function Home() {
+
   return (
     <>
-
       <div className="transition-transform duration-500 group">
         <div className="relative font-sans font-medium flex justify-center items-center bg-black text-white h-[36px] text-[.865rem] pl-[12px] pr-[12px] pb-[1px] z-10">
           <div className="w-7 p-1">
@@ -20,8 +21,8 @@ export default function Home() {
           <div className="p-1"><a className="underline  cursor-pointer">Try it now</a></div>
         </div>
 
-        <div className='absolute cursor-custom inset-[36px] w-[97.5vw] h-[69.5vh] border-l border-r border-b border-[#6248ff] bottom-[900px] left-[10px] hover:border-l-2 hover:border-r-2 hover:border-b-2 hover:bg-purple-100 transition-transform duration-500 group z-99'>
-
+        <div className='absolute cursor-pointer inset-[36px] w-[97.5vw] h-[69.5vh] border-l border-r border-b border-[#6248ff] bottom-[900px] left-[10px] hover:border-l-2 hover:border-r-2 hover:border-b-2 hover:bg-purple-100 transition-transform duration-500 group z-99'>
+    
           {/*Navbar Starts*/}
           <div className="relative cursor-pointer grid grid-cols-[0.5fr_1fr_0.5fr] pl-6 pr-8 w-full h-[5rem]">
             <div className="flex justify-start items-center">
@@ -48,7 +49,7 @@ export default function Home() {
           </div>
           {/*Navbar Ends*/}
 
-          <div className="mb-10 cursor-none">
+          <div className="mb-10 ">
             <div className="relative flex justify-between pl-12 mr-[20px] pr-6 ">
 
               <div className="relative main-left flex flex-col w-[200px] gap-y-4 transition-transform duration-500 group-hover:translate-x-8">
