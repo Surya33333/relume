@@ -11,6 +11,19 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily: {
+        sans: ['"Inter"', 'sans-serif'],  // example, check your font stack
+      },
+      backgroundImage: {
+        'text-gradient': 'linear-gradient(to right, #ff7448, #ff4848, #6248ff )',
+      },
+      textShadow: {
+        sm: '1px 1px 1px rgba(0,0,0,0.2)',
+        lg: '2px 2px 2px rgba(0, 0, 0, 0.3)',
+      },
+      purple:{
+        purple:' #6248ff',
+      },
     },
   },
   plugins: [],
