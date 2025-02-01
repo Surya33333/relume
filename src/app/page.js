@@ -20,19 +20,19 @@ export default function Home() {
           <div className="p-1"><a className="underline  cursor-pointer">Try it now</a></div>
         </div>
 
-        <div className='absolute inset-[36px] w-[97.5vw] h-[69.5vh]  border-l border-r border-b border-[#6248ff] bottom-[900px] left-[10px] hover:border-l-2 hover:border-r-2 hover:border-b-2 hover:bg-purple-100 transition-transform duration-500 group z-99'>
+        <div className='absolute cursor-custom inset-[36px] w-[97.5vw] h-[69.5vh] border-l border-r border-b border-[#6248ff] bottom-[900px] left-[10px] hover:border-l-2 hover:border-r-2 hover:border-b-2 hover:bg-purple-100 transition-transform duration-500 group z-99'>
 
           {/*Navbar Starts*/}
-          <div className="relative grid grid-cols-[0.5fr_1fr_0.5fr] pl-6 pr-8 w-full h-[5rem] cursor-pointer">
+          <div className="relative cursor-pointer grid grid-cols-[0.5fr_1fr_0.5fr] pl-6 pr-8 w-full h-[5rem]">
             <div className="flex justify-start items-center">
               <div className="w-[48px] h-[48px] items-center p-[5px] hover:bg-gray-200 rounded-full transition">
                 <img
-                  className="relative max-w-[37px] h-auto cursor-pointer my-[2px] mx-[1px] z-20"
+                  className="relative max-w-[37px] h-auto my-[2px] mx-[1px] z-20"
                   src="https://cdn.prod.website-files.com/6177739448baa66404ce1d9c/65ab316a98b1254dc17f79f1_relume%20logo%20symbol%20with%20shadow.png"
                   alt="Logo Symbol"
                 />
               </div>
-              <p className="font-sans-senrif font-bold text-[20px] pb-[2px] cursor-pointer">Relume</p>
+              <p className="font-sans-senrif font-bold text-[20px] pb-[2px]">Relume</p>
             </div>
             <div className="menu flex justify-center items-center w-[100%] z-20">
               <div className="menu test">Products</div>
@@ -48,8 +48,8 @@ export default function Home() {
           </div>
           {/*Navbar Ends*/}
 
-          <div className="mb-10">
-            <div className="relative flex justify-between pl-12 mr-[20px] pr-6 cursor-pointer">
+          <div className="mb-10 cursor-none">
+            <div className="relative flex justify-between pl-12 mr-[20px] pr-6 ">
 
               <div className="relative main-left flex flex-col w-[200px] gap-y-4 transition-transform duration-500 group-hover:translate-x-8">
                 <img className="limg w-full" src="https://cdn.prod.website-files.com/6177739448baa66404ce1d9c/65af4a6a6baf2d1aa79d942d_Image%203%20(3)-p-500.webp" />
@@ -67,7 +67,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="relative main-mid cursor-pointer relative bottom-[480px] flex flex-col items-center px-[100px]">
+          <div className="relative main-mid relative bottom-[480px] flex flex-col items-center px-[100px]">
             <div className='flex gap-2 mt-[60px] font-sans rounded-full border-[2px] pl-3 py-1'>
               <div className='relative font-medium p-[1px]'>
                 <span>
@@ -89,7 +89,7 @@ export default function Home() {
           <div className='absolute bottom-[-6px] left-[-6px] bg-[#6248ff] w-3 h-3'></div>
 
           <div className='flex absolute bottom-[-16px] left-[2rem] gap-4'>
-            <div className='flex justify-between items-center text-center rounded-lg bg-purple-200 h-[2rem] text-[#6248ff] w-[120px] p-4 text-sm hover:bg-[#6248ff] hover:text-white cursor-pointer'>
+            <div className='flex justify-between items-center text-center rounded-lg bg-purple-200 h-[2rem] text-[#6248ff] w-[120px] p-4 text-sm hover:bg-[#6248ff] hover:text-white'>
               <div className=''>
                 <svg role="img" xmlns="http://www.w3.org/2000/svg" className='w-[20px] h-[20px] object-cover'>
                   <path fillRule="evenodd" clipRule="evenodd" d="M5.6 2.80005C5.72169 2.80007 5.84006 2.83973 5.9372 2.91302C6.03434 2.98631 6.10496 3.08925 6.13838 3.20625L6.74547 5.33134C6.87618 5.789 7.1214 6.20579 7.45797 6.54235C7.79454 6.8789 8.66902 7.25482 8.66902 7.25482L10.7942 7.86189C10.9111 7.89538 11.014 7.96603 11.0872 8.06316C11.1604 8.16029 11.2 8.27862 11.2 8.40025C11.2 8.52188 11.1604 8.64021 11.0872 8.73734C11.014 8.83447 10.9111 8.90512 10.7942 8.93862L8.66902 9.54568C8.21134 9.67639 7.79454 9.9216 7.45797 10.2582C7.1214 10.5947 6.87618 11.0115 6.74547 11.4692L6.13838 13.5942C6.10489 13.7112 6.03423 13.814 5.9371 13.8872C5.83996 13.9604 5.72164 14 5.6 14C5.47836 14 5.36003 13.9604 5.2629 13.8872C5.16577 13.814 5.09511 13.7112 5.06161 13.5942L4.45453 11.4692C4.32382 11.0115 4.0786 10.5947 3.74203 10.2582C3.40546 9.9216 2.98866 9.67639 2.53098 9.54568L0.405812 8.93862C0.288879 8.90512 0.186031 8.83447 0.112816 8.73734C0.0396011 8.64021 0 8.52188 0 8.40025C0 8.27862 0.0396011 8.16029 0.112816 8.06316C0.186031 7.96603 0.288879 7.89538 0.405812 7.86189L2.53098 7.25482C2.98866 7.12411 3.40546 6.8789 3.74203 6.54235C4.0786 6.20579 4.32382 5.789 4.45453 5.33134L5.06161 3.20625C5.09504 3.08925 5.16566 2.98631 5.2628 2.91302C5.35994 2.83973 5.47831 2.80007 5.6 2.80005Z" fill="currentColor"></path>
@@ -101,7 +101,7 @@ export default function Home() {
               </div>
             </div>
 
-            <div className='flex justify-between items-center text-center rounded-full bg-[#f1f0ee] h-[2rem] w-full pr-3 border-[2px] cursor-pointer text-[#686868] text-sm hover:bg-white'>
+            <div className='flex justify-between items-center text-center rounded-full bg-[#f1f0ee] h-[2rem] w-full pr-3 border-[2px] text-[#686868] text-sm hover:bg-white'>
               <div className='flex justify-between items-center text-center mx-auto pt-1'>
                 <div>
                   <svg role="img" xmlns="http://www.w3.org/2000/svg" className='w-[20px] h-[20px] object-cover'>

@@ -10,6 +10,7 @@ h1 {
 @tailwind components;
 @tailwind utilities;
 
+
 :root {
   --background: #f1f0ee;
   --foreground: #171717;
@@ -54,8 +55,14 @@ body {
   border-radius: 8px;
   align-items: center;
   padding:14px 14px;
+  cursor: pointer;
 }
 
 .menu .test:hover{
   background: #e4e2df;
 }
+
+.cursor-custom {
+  cursor: url('/public/65b1a12e3211534c63d294b5_guest_green_cursor_yD3_icon.ico'), auto;
+}
+
